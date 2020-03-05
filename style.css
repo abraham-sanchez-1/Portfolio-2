@@ -12,6 +12,7 @@ body {
     background-color: white;
     margin:0;
     padding:0;
+    background: src;
 
 }
 body::-webkit-scrollbar {
