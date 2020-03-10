@@ -7,11 +7,6 @@
   --bg-secondary: #141418;
 }
 
-.aboutMe {
-  margin: 0;
-  padding: 0 0 0 3rem;
-}
-
 .home {
   height: 100vh;
   position: absolute;
@@ -19,17 +14,29 @@
 }
 
 .home {
-  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
 }
 
 .home-content {
   height: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  vertical-align: center;
 }
 .home-content img {
-  height: 30%;
+  margin-top: 15%;
+  height: 35%;
+}
+
+.home-presentation {
+  margin: auto 2rem auto 0;
+  padding: 0 0 0 6rem;
+  width: 45%;
+  text-align: center;
+}
+.home-presentation h4 {
+  font-size: 3rem;
+  margin-bottom: 0 0 0 0;
 }
 
 body {
@@ -116,11 +123,11 @@ main {
 }
 
 .fa-primary {
-  color: #59e21a;
+  color: #305F82;
 }
 
 .fa-secondary {
-  color: #2d790d;
+  color: #7c98ad;
 }
 
 .fa-primary,
