@@ -11,10 +11,10 @@
     <title>Document</title>
   </head>
   <body>
-    <nav class="navbar">
+    <nav id="TopOfPage" class="navbar">
       <ul class="navbar-nav">
         <li class="logo">
-          <a href="#" class="nav-link">
+          <a href="#TopOfPage" class="nav-link">
             <span class="link-text">Home</span>
             <svg
               aria-hidden="true"
@@ -101,7 +101,7 @@
         </li>
 
         <li class="nav-item">
-          <a href="#" class="nav-link">
+          <a href="#ContactMe" class="nav-link">
             <svg
               aria-hidden="true"
               focusable="false"
@@ -128,6 +128,8 @@
             <span class="link-text">Contact Me</span>
           </a>
         </li>
+
+        
       </ul>
     </nav>
     <main data-router-wrapper>
@@ -269,16 +271,9 @@
           venenatis a.<br /><br />
         </p>
       </section>
-      <section>
-        <h4>Title Here</h4>
-
-        <div class="container-fluid">
-          <label>Let's Talk!</label>
-        </div>
-        <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
-          <div class="card-header">Contact</div>
-          <div class="card-body">
-            <h4 class="card-title">Let's Talk!</h4>
+      <section id="ContactMe">
+          <div class="container" id="ContactPage">
+            <h4>Let's Talk!</h4>
             <form action="https://formspree.io/xqkbwopa" method="POST">
               <label>
                 Your email:
@@ -287,12 +282,12 @@
               <label>
                 Your message:
                 <textarea name="message"></textarea></label
-              >--> your other form fields go here
-
               <button type="submit">Send</button>
             </form>
+
           </div>
-        </div>
+        
+          
       </section>
     </main>
 

@@ -170,3 +170,9 @@ main {
         transition: opacity var(--transition-speed);
     }
 } 
+
+#ContactPage {
+    text-align: center;
+    padding: 1rem 0rem;
+    background-color: #78f178;
+}
